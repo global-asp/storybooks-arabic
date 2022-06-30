@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-arabic/apple-touch-icon.png?v=4">
+	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-arabic/favicon-32x32.png?v=4">
+	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-arabic/favicon-16x16.png?v=4">
+	<link rel="manifest" href="/storybooks-arabic/site.webmanifest?v=4">
+	<link rel="mask-icon" href="/storybooks-arabic/safari-pinned-tab.svg?v=4" color="#5bbad5">
+	<link rel="shortcut icon" href="/storybooks-arabic/favicon.ico?v=4">
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="theme-color" content="#ffffff">
+	<title>القصص العربية القصيرة - المجرية</title>
+	<meta name="description" content="القصص العربية القصيرة هو مورد تعليمي مجاني مفتوح لتشجيع محو الأمية وتعلم اللغات في المنازل، والمدارس، والمجتمعات. وحيث أنه جزء من مشروع بوابة القصص القصيرة العالمية، فهو يحتوي على أربعين قصة من القصص الأفريقية القصيرة متوفرة صوتاً ونصاً باللغة العربية، ومعظم اللغات المستخدمة على نطاق واسع في العالم العربي.
+">
+	<link rel="stylesheet" href="/storybooks-arabic/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-arabic/css/gsn.min.css">
+	<link rel="canonical" href="https://global-asp.github.io//storybooks-arabic/stories/hu/">
+	<link rel="alternate" type="application/rss+xml" title="القصص العربية القصيرة" href="/storybooks-arabic">
+	<script src="/storybooks-arabic/js/sbc.min.js"></script>
+</head>
+
+  <body>
+
+    <div class="container" dir="rtl">
+
+        <header class="navbar">
+	<section class="navbar-section">
+		<a href="/storybooks-arabic/" class="navbar-brand" style="margin-right:0;margin-left:2rem">
+			<object type="image/svg+xml" data="/storybooks-arabic/images/sbar_logo.svg" width="100" height="100" border="0"></object>
+		</a>
+		<div class="btn-group btn-group-block">
+			<a href="/storybooks-arabic/" class="btn btn-primary">الصفحة الرئيسية</a>
+			<div class="dropdown">
+				<a href="#" class="btn btn-primary dropdown-toggle" tabindex="0">عن</a>
+				<ul class="menu">
+					<li class="menu-item"><a href="/storybooks-arabic/about">من نحن</a></li>
+					<li class="menu-item"><a href="/storybooks-arabic/about/languages">اللغات</a></li>
+				</ul>
+			</div>
+			<a href="/storybooks-arabic/how-to" class="btn btn-primary">كيفية استخدام هذا الموقع</a>
+			<a href="/storybooks-arabic/contact" class="btn btn-primary">تواصل معنا</a>
+		</div>
+	</section>
+</header>
+
+        <div class="float-left">
+	<select class="btn btn-lg" onchange="window.location=this.value">
+		<option selected="" disabled="">تغيير المستوى</option>
+		<option value="/storybooks-arabic/stories/hu/level1">المستوى الأول</option>
+		<option value="/storybooks-arabic/stories/hu/level2">المستوى الثاني</option>
+		<option value="/storybooks-arabic/stories/hu/level3">المستوى الثالث</option>
+		<option value="/storybooks-arabic/stories/hu/level4">المستوى الرابع</option>
+		<option value="/storybooks-arabic/stories/hu/level5">المستوى الخامس</option>
+		<option value="/storybooks-arabic/stories/hu">لكل المستويات</option>
+	</select>
+</div>
+
+        
+
+<div class="float-left">
+	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
+		<option selected="" disabled="">تغيير اللغة</option>
+		<option value="/storybooks-arabic/stories/ar/">العربية</option>
+		<option value="/storybooks-arabic/stories/ur/">الأردية</option>
+		<option value="/storybooks-arabic/stories/de/">الألمانية</option>
+		<option value="/storybooks-arabic/stories/am/">الأمهرية</option>
+		<option value="/storybooks-arabic/stories/uk/">الأوكرانية</option>
+		<option value="/storybooks-arabic/stories/es/">الإسبانية</option>
+		<option value="/storybooks-arabic/stories/en/">الإنجليزية</option>
+		<option value="/storybooks-arabic/stories/it/">الإيطالية</option>
+		<option value="/storybooks-arabic/stories/pt/">البرتغالية</option>
+		<option value="/storybooks-arabic/stories/pa/">البنجابية</option>
+		<option value="/storybooks-arabic/stories/bn/">البنغالية</option>
+		<option value="/storybooks-arabic/stories/pl/">البولندية</option>
+		<option value="/storybooks-arabic/stories/tl/">التاغالوغية</option>
+		<option value="/storybooks-arabic/stories/bo/">التبتية</option>
+		<option value="/storybooks-arabic/stories/tr/">التركية</option>
+		<option value="/storybooks-arabic/stories/tet/">التيتومية</option>
+		<option value="/storybooks-arabic/stories/prs/">الدرية</option>
+		<option value="/storybooks-arabic/stories/sw/">السواحلية</option>
+		<option value="/storybooks-arabic/stories/so/">الصومالية</option>
+		<option value="/storybooks-arabic/stories/zh/">الصينية (الماندرينية)</option>
+		<option value="/storybooks-arabic/stories/fa/">الفارسية</option>
+		<option value="/storybooks-arabic/stories/fr/">الفرنسية</option>
+		<option value="/storybooks-arabic/stories/yue/">الكانتونية</option>
+		<option value="/storybooks-arabic/stories/ko/">الكورية</option>
+		<option value="/storybooks-arabic/stories/nb/">النرويجية (بوكمول)</option>
+		<option value="/storybooks-arabic/stories/nn/">النرويجية (نينوشك)</option>
+	</select>
+</div>
+
+        <h1>القصص العربية القصيرة</h1>
+<h2>المجرية</h2>
+
+<div class="container">
+	<div class="columns">
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0087/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0087/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0087/">
+						<h3 dir="ltr" class="card-title text-left def">Szeretnék olvasni!</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0327/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0327/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0327/">
+						<h3 dir="ltr" class="card-title text-left def">Állatos számoló</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0030/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0030/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0030/">
+						<h3 dir="ltr" class="card-title text-left def">Érzések</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0302/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0302/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0302/">
+						<h3 dir="ltr" class="card-title text-left def">A tűz</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0156/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0156/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0156/">
+						<h3 dir="ltr" class="card-title text-left def">Az éhes krokodil</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0002/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0002/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0002/">
+						<h3 dir="ltr" class="card-title text-left def">Nézd az állatokat</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0003/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0003/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0003/">
+						<h3 dir="ltr" class="card-title text-left def">Iskolai ruhák</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0120/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0120/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0120/">
+						<h3 dir="ltr" class="card-title text-left def">Haj</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0271/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0271/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0271/">
+						<h3 dir="ltr" class="card-title text-left def">Kettő</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0231/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0231/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0231/">
+						<h3 dir="ltr" class="card-title text-left def">Az időjárás</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0129/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0129/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0129/">
+						<h3 dir="ltr" class="card-title text-left def">A lusta kistestvér</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0067/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0067/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0067/">
+						<h3 dir="ltr" class="card-title text-left def">Főzés</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0008/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0008/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0008/">
+						<h3 dir="ltr" class="card-title text-left def">Mit csinálsz?</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0009/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0009/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0009/">
+						<h3 dir="ltr" class="card-title text-left def">Hol van a cicám?</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0112/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0112/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0112/">
+						<h3 dir="ltr" class="card-title text-left def">A testem</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level1" class="bar-item tooltip" data-tooltip="المستوى 1" style="width:20%;">المستوى 1</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0111/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0111/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0111/">
+						<h3 dir="ltr" class="card-title text-left def">Miért nem szőrösek a vízilovak</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level2" class="bar-item tooltip" data-tooltip="المستوى 2" style="width:40%;">المستوى 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0337/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0337/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0337/">
+						<h3 dir="ltr" class="card-title text-left def">Viaszgyermekek</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level2" class="bar-item tooltip" data-tooltip="المستوى 2" style="width:40%;">المستوى 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0210/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0210/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0210/">
+						<h3 dir="ltr" class="card-title text-left def">Tingi és a tehenek</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level2" class="bar-item tooltip" data-tooltip="المستوى 2" style="width:40%;">المستوى 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0296/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0296/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0296/">
+						<h3 dir="ltr" class="card-title text-left def">Banánárus Tom</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level2" class="bar-item tooltip" data-tooltip="المستوى 2" style="width:40%;">المستوى 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0027/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0027/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0027/">
+						<h3 dir="ltr" class="card-title text-left def">A döntés</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level2" class="bar-item tooltip" data-tooltip="المستوى 2" style="width:40%;">المستوى 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0342/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0342/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0342/">
+						<h3 dir="ltr" class="card-title text-left def">A büntetés</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level2" class="bar-item tooltip" data-tooltip="المستوى 2" style="width:40%;">المستوى 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0089/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0089/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0089/">
+						<h3 dir="ltr" class="card-title text-left def">A növényekkel beszélgető Khalai</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level2" class="bar-item tooltip" data-tooltip="المستوى 2" style="width:40%;">المستوى 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0234/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0234/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0234/">
+						<h3 dir="ltr" class="card-title text-left def">Andiswa a focisztár</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level2" class="bar-item tooltip" data-tooltip="المستوى 2" style="width:40%;">المستوى 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0001/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0001/">
+						<h3 dir="ltr" class="card-title text-left def">A nagyon magas ember</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level2" class="bar-item tooltip" data-tooltip="المستوى 2" style="width:40%;">المستوى 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0095/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0095/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0095/">
+						<h3 dir="ltr" class="card-title text-left def">Az ügyes Zama</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level2" class="bar-item tooltip" data-tooltip="المستوى 2" style="width:40%;">المستوى 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0004/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0004/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0004/">
+						<h3 dir="ltr" class="card-title text-left def">A kecske, a kutya és a tehén</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level2" class="bar-item tooltip" data-tooltip="المستوى 2" style="width:40%;">المستوى 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0201/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0201/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0201/">
+						<h3 dir="ltr" class="card-title text-left def">A szamárgyermek</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level3" class="bar-item tooltip" data-tooltip="المستوى 3" style="width:60%;">المستوى 3</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0006/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0006/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0006/">
+						<h3 dir="ltr" class="card-title text-left def">Anansi és a bölcsesség</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level3" class="bar-item tooltip" data-tooltip="المستوى 3" style="width:60%;">المستوى 3</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0110/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0110/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0110/">
+						<h3 dir="ltr" class="card-title text-left def">Egy picinyke mag: Wangari Maathai története</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level3" class="bar-item tooltip" data-tooltip="المستوى 3" style="width:60%;">المستوى 3</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0158/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0158/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0158/">
+						<h3 dir="ltr" class="card-title text-left def">A tyúk és a sas</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level3" class="bar-item tooltip" data-tooltip="المستوى 3" style="width:60%;">المستوى 3</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0324/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0324/">
+						<h3 dir="ltr" class="card-title text-left def">A nap, amikor a városba költöztem</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level3" class="bar-item tooltip" data-tooltip="المستوى 3" style="width:60%;">المستوى 3</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0141/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0141/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0141/">
+						<h3 dir="ltr" class="card-title text-left def">A csirke és a százlábú</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level3" class="bar-item tooltip" data-tooltip="المستوى 3" style="width:60%;">المستوى 3</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0066/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0066/">
+						<h3 dir="ltr" class="card-title text-left def">Nozibele és a három hajszál</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level3" class="bar-item tooltip" data-tooltip="المستوى 3" style="width:60%;">المستوى 3</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0315/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0315/">
+						<h3 dir="ltr" class="card-title text-left def">Sakima éneke</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level3" class="bar-item tooltip" data-tooltip="المستوى 3" style="width:60%;">المستوى 3</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0291/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0291/">
+						<h3 dir="ltr" class="card-title text-left def">Mit mondott Vusi nővére</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level4" class="bar-item tooltip" data-tooltip="المستوى 4" style="width:80%;">المستوى 4</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0072/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0072/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0072/">
+						<h3 dir="ltr" class="card-title text-left def">A mézkalauz bosszúja</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level4" class="bar-item tooltip" data-tooltip="المستوى 4" style="width:80%;">المستوى 4</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0294/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0294/">
+						<h3 dir="ltr" class="card-title text-left def">Nagymama banánjai</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level4" class="bar-item tooltip" data-tooltip="المستوى 4" style="width:80%;">المستوى 4</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0243/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0243/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0243/">
+						<h3 dir="ltr" class="card-title text-left def">Szünidő a nagymamánál</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level4" class="bar-item tooltip" data-tooltip="المستوى 4" style="width:80%;">المستوى 4</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0052/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0052/">
+						<h3 dir="ltr" class="card-title text-left def">Simbegwire</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level5" class="bar-item tooltip" data-tooltip="المستوى 5" style="width:100%;">المستوى 5</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column col-3 col-md-4 col-sm-6 col-xs-12">
+			<div class="card text-right">
+				<div class="card-image">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0262/">
+						<img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0262/01.jpg">
+					</a>
+				</div>
+				<div class="card-header">
+					<a class="btn-link" href="/storybooks-arabic/stories/hu/0262/">
+						<h3 dir="ltr" class="card-title text-left def">Magozwe</h3>
+					</a>
+					<div class="bar">
+						<a href="/storybooks-arabic/stories/hu/level5" class="bar-item tooltip" data-tooltip="المستوى 5" style="width:100%;">المستوى 5</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+    </div>
+
+    <footer>
+	<div class="container" dir="rtl">
+		<h3>موارد إضافية</h3>
+		<a class="btn btn-lg" target="_blank" href="https://africanstorybook.org/">القصص الأفريقية القصيرة</a> <a class="btn btn-lg" target="_blank" href="https://globalstorybooks.net/">بوابة القصص القصيرة العالمية</a> <a class="btn btn-lg" href="/storybooks-arabic/contact">تواصل معنا عبر البريد الإلكتروني</a>
+<br><br> &copy; القصص العربية القصيرة. <a href="https://creativecommons.org/licenses/by/4.0/deed.ar">بعض الحقوق محفوظة</a>.<br><br>
+	</div>
+</footer>
+
+
+  </body>
+
+</html>

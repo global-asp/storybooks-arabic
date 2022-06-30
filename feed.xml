@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>القصص العربية القصيرة</title>
+    <description>القصص العربية القصيرة هو مورد تعليمي مجاني مفتوح لتشجيع محو الأمية وتعلم اللغات في المنازل، والمدارس، والمجتمعات. وحيث أنه جزء من مشروع بوابة القصص القصيرة العالمية، فهو يحتوي على أربعين قصة من القصص الأفريقية القصيرة متوفرة صوتاً ونصاً باللغة العربية، ومعظم اللغات المستخدمة على نطاق واسع في العالم العربي.
+</description>
+    <link>https://global-asp.github.io//storybooks-arabic/</link>
+    <atom:link href="https://global-asp.github.io//storybooks-arabic/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 29 Jun 2022 16:48:17 -0700</pubDate>
+    <lastBuildDate>Wed, 29 Jun 2022 16:48:17 -0700</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+  </channel>
+</rss>
